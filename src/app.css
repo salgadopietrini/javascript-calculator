@@ -1,0 +1,70 @@
+.numberKeys {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  direction: rtl;
+  grid-gap: 10px;
+  width: 30vw;
+  padding: 10;
+}
+.operationKeys {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 7vw;
+}
+
+.number {
+  height: 8vw;
+  width: 8vw;
+  border-radius: 20%;
+  border: 2px solid;
+  font-size: larger;
+}
+
+.operation {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 10%;
+  border: 2px solid;
+  font-size: larger;
+  margin: 3px;
+}
+.keys {
+  display: flex;
+  margin: 10px;
+}
+
+#display {
+  width: 40vw;
+  height: 10vw;
+  border: 2px solid;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  background-color: aquamarine;
+}
+
+.calculator {
+  border: 2px solid;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
